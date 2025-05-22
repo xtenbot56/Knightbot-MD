@@ -1,13 +1,13 @@
 async function githubCommand(sock, chatId) {
-    const repoInfo = `*🤖 KnightBot MD*
+    const repoInfo = `*🤖🅗🅤🅢🅢🅐🅘🅝 🅑🅞🅣*
 
 *📂 GitHub Repository:*
-https://github.com/mruniquehacker/Knightbot-MD
 
-*📢 Official Channel:*
-https://youtube.com/@mr_unique_hacker
+None public
+*📢 Official group:*
+https://chat.whatsapp.com/GeA1sz74hLC1gETLXkg0cI
 
-_Star ⭐ the repository if you like the bot!_`;
+ ⭐ add personal group if you like the bot!_`;
 
     try {
         await sock.sendMessage(chatId, {
@@ -16,8 +16,8 @@ _Star ⭐ the repository if you like the bot!_`;
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363161513685998@newsletter',
-                    newsletterName: 'KnightBot MD',
+                    newsletterJid: '',
+                    newsletterName: '🅗🅤🅢🅢🅐🅘🅝 🅐🅗🅜🅔🅓',
                     serverMessageId: -1
                 }
             }
